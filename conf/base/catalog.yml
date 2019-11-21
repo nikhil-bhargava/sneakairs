@@ -3,3 +3,6 @@
 # Documentation for this file format can be found in the kedro docs under `Accessing data`
 # You can access the kedro docs by running `kedro docs`
 
+11202019_KOF:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/11202019_KOF.csv"

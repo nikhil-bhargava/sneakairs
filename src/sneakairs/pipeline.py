@@ -45,6 +45,7 @@ from kedro.pipeline import Pipeline
 # $ kedro run
 #
 
+from nodes.kof-scrape import scrape_kof
 
 def create_pipeline(**kwargs):
     """Create the project's pipeline.
@@ -57,6 +58,8 @@ def create_pipeline(**kwargs):
 
     """
 
-    pipeline = Pipeline([])
+    pipeline = Pipeline([
+        node(scrape_kof, None, "11202019_KOF",name="scrape-kof",tag=["kof"])
+    ])
 
     return pipeline
