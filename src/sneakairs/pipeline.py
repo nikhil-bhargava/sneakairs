@@ -27,7 +27,7 @@
 # limitations under the License.
 """Pipeline construction."""
 
-from kedro.pipeline import Pipeline
+from kedro.pipeline import node, Pipeline
 
 # Here you can define your data-driven pipeline by importing your functions
 # and adding them to the pipeline as follows:
@@ -45,7 +45,8 @@ from kedro.pipeline import Pipeline
 # $ kedro run
 #
 
-from nodes.kof-scrape import scrape_kof
+
+from sneakairs.nodes.kof_scrape import scrape_kof
 
 def create_pipeline(**kwargs):
     """Create the project's pipeline.
@@ -59,7 +60,7 @@ def create_pipeline(**kwargs):
     """
 
     pipeline = Pipeline([
-        node(scrape_kof, None, "11202019_KOF",name="scrape-kof",tag=["kof"])
+        node(scrape_kof, None, "11202019_KOF",name="scrape_kof",tags=["kof"])
     ])
 
     return pipeline

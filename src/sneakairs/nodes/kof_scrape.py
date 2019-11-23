@@ -4,16 +4,9 @@ import requests
 import urllib.request
 import time
 from bs4 import BeautifulSoup
+from sneakairs.nodes.kof_functions import p_get_data, meta_get_data
 
-def p_get_data(number):
-    data = soup.findAll('p')[number].contents[0]
-    return data
-
-def meta_get_data(number):
-    data = soup.findAll('meta')[number]['content']
-    return data
-
-def scrape_kof(date: None)
+def scrape_kof(*args):
 
     db = []
     linkn = 45
@@ -89,7 +82,14 @@ def scrape_kof(date: None)
         urln += 1
         linkn = 45
 
-    df = pd.DataFrame(data = db, columns=['Code_Style','Name','Brand','Date','Retail_Price','Colorway','Story','KOF_Wants'])
+    df = pd.DataFrame(data = db, columns=['code_style','name','brand','date','retail_price','colorway','story','kof_wants'])
 
     return df
 
+# def p_get_data(number):
+#     data = soup.findAll('p')[number].contents[0]
+#     return data
+
+# def meta_get_data(number):
+#     data = soup.findAll('meta')[number]['content']
+#     return data
