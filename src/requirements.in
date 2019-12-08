@@ -102,12 +102,9 @@ xlsxwriter==1.2.0         # via kedro
 zipp==0.6.0               # via importlib-metadata
 nltk==3.4.5
 fuzzywuzzy==0.3.0
-<<<<<<< HEAD
 beautifulsoup4==4.8.1
 spacy==2.2.3
-=======
 plotly==4.3.0
->>>>>>> master
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools==41.2.0        # via anyconfig, ipython, jsonschema, pytest
