@@ -3,3 +3,46 @@
 # Documentation for this file format can be found in the kedro docs under `Accessing data`
 # You can access the kedro docs by running `kedro docs`
 
+01_adidas_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/adidas.txt"
+
+01_asics_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/asics.txt"
+
+01_converse_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/converse.txt"
+
+01_jordan_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/jordan.txt"
+
+01_newbalance_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/new-balance.txt"
+
+01_nike_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/nike.txt"
+
+01_puma_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/puma.txt"
+
+01_reebok_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/reebok.txt"
+
+01_vans_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/vans.txt"
+
+02_all_silhouettes:
+  type: TextLocalDataSet
+  filepath: "data/02_intermediate/all-silhouettes.txt"
+
+KOF_04152019:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/KOF_04152019.csv"
