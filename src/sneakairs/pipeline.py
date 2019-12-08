@@ -47,6 +47,7 @@ from kedro.pipeline import node, Pipeline
 
 
 from sneakairs.nodes.kof_scrape import scrape_kof
+from sneakairs.nodes.kof_clean import clean_kof
 
 def create_pipeline(**kwargs):
     """Create the project's pipeline.
@@ -60,7 +61,8 @@ def create_pipeline(**kwargs):
     """
 
     pipeline = Pipeline([
-        node(scrape_kof, None, "11202019_KOF",name="scrape_kof",tags=["kof"])
+        #node(scrape_kof, None, "11202019_KOF",name="scrape_kof",tags=["kof"]),
+        node(clean_kof, "KOF_04152019_01", "KOF_04152019_02", name="clean_kof", tags=["kof"])
     ])
 
     return pipeline

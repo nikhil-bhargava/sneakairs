@@ -6,3 +6,11 @@
 11202019_KOF:
   type: CSVLocalDataSet
   filepath: "data/01_raw/11202019_KOF.csv"
+
+KOF_04152019_01:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/KOF_04152019.csv"
+
+KOF_04152019_02:
+  type: CSVLocalDataSet
+  filepath: "data/02_intermediate/KOF_04152019.csv"
