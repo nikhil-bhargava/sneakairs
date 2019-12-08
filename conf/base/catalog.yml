@@ -14,3 +14,7 @@ KOF_04152019_01:
 KOF_04152019_02:
   type: CSVLocalDataSet
   filepath: "data/02_intermediate/KOF_04152019.csv"
+
+KOF_04152019_04:
+  type: CSVLocalDataSet
+  filepath: "data/04_features/KOF_04152019+resale-finalv1.csv"
