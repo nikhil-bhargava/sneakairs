@@ -18,6 +18,10 @@ KOF_04152019_02:
 KOF_04152019_04:
   type: CSVLocalDataSet
   filepath: "data/04_features/KOF_04152019+resale-finalv1.csv"
+
+KOF_04152019_05:
+  type: CSVLocalDataSet
+  filepath: "data/04_features/KOF_04152019.csv"
   
 01_adidas_silhouette:
   type: TextLocalDataSet
