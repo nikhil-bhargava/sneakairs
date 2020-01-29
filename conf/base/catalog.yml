@@ -6,3 +6,71 @@
 kof_features:
   type: CSVLocalDataSet
   filepath: data/05_model_input/KOF_04152019-model.csv
+  
+kof_processed:
+  type: CSVLocalDataSet
+  filepath: "data/05_model_input/KOF_04152019-model.csv"
+
+11202019_KOF:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/11202019_KOF.csv"
+
+KOF_04152019_01:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/KOF_04152019.csv"
+
+KOF_04152019_02:
+  type: CSVLocalDataSet
+  filepath: "data/02_intermediate/KOF_04152019.csv"
+
+KOF_04152019_04:
+  type: CSVLocalDataSet
+  filepath: "data/04_features/KOF_04152019+resale-finalv1.csv"
+
+KOF_04152019_05:
+  type: CSVLocalDataSet
+  filepath: "data/04_features/KOF_04152019.csv"
+  
+01_adidas_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/adidas.txt"
+
+01_asics_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/asics.txt"
+
+01_converse_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/converse.txt"
+
+01_jordan_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/jordan.txt"
+
+01_newbalance_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/new-balance.txt"
+
+01_nike_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/nike.txt"
+
+01_puma_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/puma.txt"
+
+01_reebok_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/reebok.txt"
+
+01_vans_silhouette:
+  type: TextLocalDataSet
+  filepath: "data/01_raw/silhouettes/vans.txt"
+
+02_all_silhouettes:
+  type: TextLocalDataSet
+  filepath: "data/02_intermediate/all-silhouettes.txt"
+
+KOF_04152019:
+  type: CSVLocalDataSet
+  filepath: "data/01_raw/KOF_04152019.csv"

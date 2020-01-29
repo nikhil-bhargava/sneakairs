@@ -1,8 +1,13 @@
 # sneakairs
 
+## Current updates
+
+- Kicks on Fire (KOF) scraper is implemented into current pipeline, however, is broken due to changes made to the website. That is why it is currently commented out in the pipeline. In the process of getting fixed.
+- JFL & StockX scrapers currently kept in notebooks & not implemented into pipeline yet.
+
 ## Overview
 
-This is your new Kedro project, which was generated using `Kedro 0.15.1` by running:
+Kedro projected generated using `Kedro 0.15.1` by running:
 
 ```
 kedro new
